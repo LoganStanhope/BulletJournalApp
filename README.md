@@ -1,6 +1,4 @@
-![Screenshot 2023-06-18 at 9.04.30 PM.png](..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2F2g%2F83tzbxnn5nn5njbh694yv7dh0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_ysReLA%2FScreenshot%202023-06-18%20at%209.04.30%20PM.png)
-
-[pa05-template-1.0-SNAPSHOT.jar](build%2Flibs%2Fpa05-template-1.0-SNAPSHOT.jar)
+<img width="1481" alt="Screenshot 2023-06-22 at 12 54 55 AM" src="https://github.com/LoganStanhope/BulletJournalApp/assets/116970306/39ecfec4-889e-4b52-a8ce-043fb19143fb">
 
 ## Pitch:
 
@@ -11,10 +9,6 @@ creation with a satisfying checklist to see those pesky tasks get checked off as
 Nowadays notes apps can be overwhelming-- between tons of templates and loads of confusing features, the Bullet Journal
 is a straight forward organization tool for any user to stay on top of their busy schedules with this neat, aesthetic,
 and easy to use app!
-
-## Screenshot of GUI:
-
-![Screenshot 2023-06-22 at 12.54.55 AM.png](..%2F..%2FScreenshot%202023-06-22%20at%2012.54.55%20AM.png)
 
 ## SOLID Principles:
 
