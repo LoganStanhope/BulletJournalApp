@@ -1,4 +1,4 @@
-<img width="1481" alt="Screenshot 2023-06-22 at 12 54 55 AM" src="https://github.com/LoganStanhope/BulletJournalApp/assets/116970306/39ecfec4-889e-4b52-a8ce-043fb19143fb">
+<img width="1481" alt="Screenshot 2023-06-22 at 12 54 55 AM" src="Screenshot 2023-06-22 at 12.54.55 AM.png">
 
 ## Pitch:
 
