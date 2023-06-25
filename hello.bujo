@@ -1,0 +1,36 @@
+{
+  "Max Tasks" : 3,
+  "Max Events" : 3,
+  "Week" : {
+    "Name" : "welcome to your bullet journal",
+    "Days" : [ {
+      "Name" : "TUESDAY",
+      "Tasks" : [ ],
+      "Events" : [ ]
+    }, {
+      "Name" : "WEDNESDAY",
+      "Tasks" : [ ],
+      "Events" : [ ]
+    }, {
+      "Name" : "THURSDAY",
+      "Tasks" : [ ],
+      "Events" : [ ]
+    }, {
+      "Name" : "FRIDAY",
+      "Tasks" : [ ],
+      "Events" : [ ]
+    }, {
+      "Name" : "SATURDAY",
+      "Tasks" : [ ],
+      "Events" : [ ]
+    }, {
+      "Name" : "SUNDAY",
+      "Tasks" : [ ],
+      "Events" : [ ]
+    }, {
+      "Name" : "MONDAY",
+      "Tasks" : [ ],
+      "Events" : [ ]
+    } ]
+  }
+}

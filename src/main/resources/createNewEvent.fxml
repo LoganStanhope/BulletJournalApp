@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Scene xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <AnchorPane prefHeight="850.0" prefWidth="1452.0">
+      <children>
+         <VBox layoutX="486.0" layoutY="250.0" prefHeight="338.0" prefWidth="471.0" spacing="30.0">
+            <children>
+               <Label fx:id="createNewEventHeader" alignment="CENTER" contentDisplay="CENTER" prefHeight="123.0" prefWidth="500.0" text="create new event" textAlignment="CENTER">
+                  <font>
+                     <Font name="Avenir Book" size="44.0" />
+                  </font>
+               </Label>
+               <VBox prefHeight="359.0" prefWidth="500.0" spacing="20.0">
+                  <children>
+                     <HBox prefHeight="27.0" prefWidth="458.0" spacing="20.0">
+                        <children>
+                           <Label fx:id="eventName" prefHeight="27.0" prefWidth="74.0" style="-fx-background-color: DBDFAA;" text="name: ">
+                              <font>
+                                 <Font name="Avenir Book" size="18.0" />
+                              </font>
+                              <HBox.margin>
+                                 <Insets />
+                              </HBox.margin>
+                              <padding>
+                                 <Insets left="10.0" />
+                              </padding>
+                           </Label>
+                           <TextField fx:id="userEventName" />
+                        </children>
+                        <opaqueInsets>
+                           <Insets />
+                        </opaqueInsets>
+                        <VBox.margin>
+                           <Insets />
+                        </VBox.margin>
+                        <padding>
+                           <Insets left="20.0" />
+                        </padding>
+                     </HBox>
+                     <HBox prefHeight="27.0" prefWidth="458.0" spacing="20.0">
+                        <children>
+                           <Label fx:id="eventDay" prefHeight="27.0" prefWidth="55.0" style="-fx-background-color: DBDFAA;" text="day: ">
+                              <font>
+                                 <Font name="Avenir Book" size="18.0" />
+                              </font>
+                              <HBox.margin>
+                                 <Insets />
+                              </HBox.margin>
+                              <padding>
+                                 <Insets left="10.0" />
+                              </padding>
+                           </Label>
+                           <TextField fx:id="userEventDay" />
+                        </children>
+                        <opaqueInsets>
+                           <Insets />
+                        </opaqueInsets>
+                        <padding>
+                           <Insets left="20.0" />
+                        </padding>
+                     </HBox>
+                     <HBox prefHeight="27.0" prefWidth="458.0" spacing="20.0">
+                        <children>
+                           <Label fx:id="eventDescription" prefHeight="27.0" prefWidth="119.0" style="-fx-background-color: DBDFAA;" text="description: ">
+                              <font>
+                                 <Font name="Avenir Book" size="18.0" />
+                              </font>
+                              <HBox.margin>
+                                 <Insets />
+                              </HBox.margin>
+                              <padding>
+                                 <Insets left="10.0" />
+                              </padding>
+                           </Label>
+                           <TextArea fx:id="userEventDescription" prefHeight="54.0" prefWidth="229.0" />
+                        </children>
+                        <opaqueInsets>
+                           <Insets />
+                        </opaqueInsets>
+                        <padding>
+                           <Insets left="20.0" />
+                        </padding>
+                     </HBox>
+                     <HBox prefHeight="27.0" prefWidth="458.0" spacing="20.0">
+                        <children>
+                           <Label fx:id="eventStartTime" prefHeight="27.0" prefWidth="411.0" style="-fx-background-color: DBDFAA;" text="start time (4 digits with no space or &quot;:&quot;): ">
+                              <font>
+                                 <Font name="Avenir Book" size="18.0" />
+                              </font>
+                              <HBox.margin>
+                                 <Insets />
+                              </HBox.margin>
+                              <padding>
+                                 <Insets left="10.0" />
+                              </padding>
+                           </Label>
+                           <TextField fx:id="userEventStartTime" />
+                        </children>
+                        <opaqueInsets>
+                           <Insets />
+                        </opaqueInsets>
+                        <padding>
+                           <Insets left="20.0" />
+                        </padding>
+                     </HBox>
+                     <HBox prefHeight="27.0" prefWidth="458.0" spacing="20.0">
+                        <children>
+                           <Label fx:id="eventDuration" prefHeight="27.0" prefWidth="192.0" style="-fx-background-color: DBDFAA;" text="duration (in minutes): ">
+                              <font>
+                                 <Font name="Avenir Book" size="18.0" />
+                              </font>
+                              <HBox.margin>
+                                 <Insets />
+                              </HBox.margin>
+                              <padding>
+                                 <Insets left="10.0" />
+                              </padding>
+                           </Label>
+                           <TextField fx:id="userEventDuration" />
+                        </children>
+                        <opaqueInsets>
+                           <Insets />
+                        </opaqueInsets>
+                        <padding>
+                           <Insets left="20.0" />
+                        </padding>
+                     </HBox>
+                  </children>
+               </VBox>
+               <HBox prefHeight="100.0" prefWidth="200.0">
+                  <children>
+                     <Button fx:id="backToWeekView" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="28.0" prefWidth="53.0" style="-fx-background-color: #73A9AD;" text="back">
+                        <font>
+                           <Font name="Avenir Book" size="13.0" />
+                        </font>
+                        <HBox.margin>
+                           <Insets />
+                        </HBox.margin>
+                     </Button>
+                     <Button fx:id="newEventDone" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="28.0" prefWidth="53.0" style="-fx-background-color: #73A9AD;" text="done">
+                        <font>
+                           <Font name="Avenir Book" size="13.0" />
+                        </font>
+                        <HBox.margin>
+                           <Insets left="337.0" />
+                        </HBox.margin>
+                     </Button>
+                  </children>
+                  <VBox.margin>
+                     <Insets top="20.0" />
+                  </VBox.margin>
+               </HBox>
+            </children>
+         </VBox>
+      </children></AnchorPane>
+</Scene>
